@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>My Website</title>
+    <style>
+        /* CSS for background and layout */
+        body {
+            background-image: url('background.jpg'); /* Ganti 'background.jpg' dengan URL gambar latar belakang Anda */
+            background-size: cover;
+            text-align: center;
+            margin: 0; /* Menghilangkan margin default */
+        }
+
+        /* CSS for navigation */
+        ul.navbar {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: white; /* Ubah warna latar belakang menjadi putih */
+            text-align: right; /* Ratakan menu ke kanan */
+        }
+
+        li.nav-item {
+            display: inline; /* Tampilkan item menu dalam satu baris */
+        }
+
+        li.nav-item a {
+            display: inline-block; /* Tampilkan item menu dalam satu baris */
+            color: black; /* Ubah warna teks menjadi hitam */
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li.nav-item a:hover {
+            background-color: #555; /* Warna latar belakang saat kursor mengarah ke menu */
+        }
+
+        /* CSS for homepage content */
+        .home-content {
+            padding: 100px;
+            color: white;
+            text-align: left; /* Mengubah tata letak teks ke kiri */
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+
+        .button {
+            background-color: #4CAF50; /* Warna tombol */
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin-top: 20px;
+        }
+
+        /* CSS for white text */
+        .white-text {
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <ul class="navbar">
+        <li class="nav-item"><a href="#home">Home</a></li>
+        <li class="nav-item"><a href="#about">About</a></li>
+        <li class="nav-item"><a href="#office">Office</a></li>
+        <li class="nav-item"><a href="#contact">Contact</a></li>
+    </ul>
+
+    <div id="home" class="home-content">
+        <h2 class="black-text">Aryo Bimo Putra Pratama</h2>
+        <h1>Welcome to Our Website</h1>
+        <p>This website is the perfect place to explore information about us.</p>
+    </div>
+
+    <!-- Content for "About," "Office," and "Contact" pages can be added here -->
+
+</body>
+</html>
